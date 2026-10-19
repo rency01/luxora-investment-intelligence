@@ -13,7 +13,7 @@ import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/luxora-investment-intelligence">
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Dashboard />} />
